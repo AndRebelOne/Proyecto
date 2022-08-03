@@ -1,12 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Stylesheet" href="styles.css">
     <title>SkyFly</title>
 </head>
+
 <body>
-    <h1>Nuevo pull request</h1>
+    <!--header-->
+    <header>
+        <!--header nombre empresa-->
+        <div id="contenedorHeader">
+            <div id="logo">
+                <h3>Skyfly</h3>
+            </div>
+            <!--header Menu de navegacion-->
+            <nav id="menu">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Acerca de</a></li>
+                    <li><a href="#">Contacto</a></li>
+                    <li><a href="#">Destinos</a></li>
+                    <li><a href="#">Mi cuenta</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <h2 class="tituloNavegacion">Inicio</h2>
+    <div id="contenedorSlider">
+
+        <input type="radio" id="1" name="imagen-slide" hidden/>
+        <input type="radio" id="2" name="imagen-slide" hidden/>
+        <input type="radio" id="3" name="imagen-slide" hidden/>
+
+        <div class="slider">
+
+            <div class="elementoSlide">
+                <img src="Recursos\IMG\vuelo.jpg" />
+            </div>
+            <div class="elementoSlide">
+                <img src="Recursos/IMG/avion.jpg" />
+            </div>
+            <div class="elementoSlide">
+                <img src="Recursos/IMG/asientos_aviento.jpg" />
+
+            </div>
+        </div>
+        <div class="pagina">
+
+            <label class="elementoPagina" for="1">
+    <img src="Recursos\IMG\vuelo.jpg" />
+</label>
+            <label class="elementoPagina" for="2">
+    <img src="Recursos/IMG/avion.jpg" />
+</label>
+            <label class="elementoPagina" for="3">
+    <img src="Recursos/IMG/asientos_aviento.jpg" />
+</label>
+        </div>
+
+    </div>
+
+
+    <h2 class="tituloNavegacion">Acerca De</h2>
+
+
+
+    <h2 class="tituloNavegacion">Contacto</h2>
+
+
+
+
+    <h2 class="tituloNavegacion">Nuestros Destinos</h2>
 </body>
+
 </html>
