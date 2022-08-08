@@ -204,3 +204,61 @@ input[id="3"]:checked~.pagina .elementoPagina[for="3"] {
         transform: translate3d(calc(-100%*2), 0, 0);
     }
 }
+
+.contenedor-contenido {
+    background-color: brown;
+    width: 75%;
+    height: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+#Imagen-acercade {
+    background-color: white;
+    width: 50%;
+    height: 300px;
+}
+
+#Imagen-acercade img {
+    width: 100%;
+    height: 100%;
+}
+
+#mapa iframe {
+    width: 100%;
+    height: 100%;
+}
+
+#mapa {
+    background-color: white;
+    width: 50%;
+    height: 300px;
+}
+
+#contenido-acercade {
+    background-color: white;
+    width: 47%;
+    height: 220px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+}
+
+#contacto {
+    background-color: #b4afcf;
+    width: 50%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+#contacto li {
+    list-style: none;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
