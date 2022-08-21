@@ -8,6 +8,13 @@
     padding: 0;
 }
 
+* {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
 body {
     box-sizing: border-box;
     position: relative;
@@ -18,6 +25,274 @@ body {
 
 
 /* Headings */
+
+
+/*Header*/
+
+header {
+    width: 100%;
+    height: 70px;
+    background-color: #5a90d7;
+    color: white;
+}
+
+#contenedorHeader {
+    width: 95%;
+    margin: 0px auto;
+}
+
+
+/*Logo(Nombre de empresa)z*/
+
+#logo {
+    float: left;
+    width: 230px;
+    margin-top: 8px;
+    letter-spacing: 1px;
+    text-align: center;
+    overflow: hidden;
+}
+
+#logo>h3 {
+    display: block;
+    float: right;
+    margin-right: 65px;
+    margin-top: 5px;
+    font-size: 40px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+
+/*Menu de navegacion header*/
+
+#menu {
+    float: right;
+    height: 70px;
+}
+
+#menu ul li {
+    font-size: 12px;
+    display: inline-block;
+    text-transform: uppercase;
+    margin: 0px 10px 0px 10px;
+    letter-spacing: 1px;
+    line-height: 70px;
+}
+
+#menu ul li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    transition: all 200ms;
+}
+
+#menu ul li a:hover {
+    color: #00121b;
+    transform: scale(1.2, 1.2);
+}
+
+
+/*Los titulos*/
+
+.tituloNavegacion {
+    text-align: center;
+    margin: 100px 0px 50px 0px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+
+/*Slider*/
+
+#contenedorSlider {
+    position: relative;
+    margin: auto;
+    max-width: 1310px;
+    max-height: 500px;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.slider {
+    display: flex;
+    transform: translate3d(0, 0, 0);
+    transition: all 600ms;
+    animation-name: automatico;
+    animation-duration: 20.5s;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.elementoSlide {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    flex-grow: 0;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.elementoSlide>img {
+    max-width: 100%;
+    max-height: 100%;
+    opacity: 0.8;
+}
+
+.pagina {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.elementoPagina {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid white;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+    cursor: pointer;
+    margin: 0 10px;
+    transition: all 300ms;
+}
+
+.elementoPagina:hover {
+    transform: scale(2);
+}
+
+.elementoPagina img {
+    display: inline-block;
+    max-width: none;
+    height: 100%;
+    transform: scale(1);
+    opacity: 0;
+    transition: all 300ms;
+}
+
+.elementoPagina:hover img {
+    opacity: 1;
+    transform: scale(1);
+}
+
+input[id="1"]:checked~.slider {
+    animation: none;
+    transform: translate3d(0, 0, 0);
+}
+
+input[id="1"]:checked~.pagina .elementoPagina[for="1"] {
+    background-color: white;
+}
+
+input[id="2"]:checked~.slider {
+    animation: none;
+    transform: translate3d(calc(-100%*1), 0, 0);
+}
+
+input[id="2"]:checked~.pagina .elementoPagina[for="2"] {
+    background-color: white;
+}
+
+input[id="3"]:checked~.slider {
+    animation: none;
+    transform: translate3d(calc(-100%*2), 0, 0);
+}
+
+input[id="3"]:checked~.pagina .elementoPagina[for="3"] {
+    background-color: white;
+}
+
+@keyframes automatico {
+    33% {
+        transform: translate3d(calc(-100%*0), 0, 0);
+    }
+    66% {
+        transform: translate3d(calc(-100%*1), 0, 0);
+    }
+    100% {
+        transform: translate3d(calc(-100%*2), 0, 0);
+    }
+}
+
+
+/*Acerca de y contacto*/
+
+.borde {
+    border-radius: 10px;
+}
+
+.contenedor-contenido {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+}
+
+#contenido-acercade {
+    border-radius: 10px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-weight: 300;
+}
+
+#Imagen-acercade {
+    width: 50%;
+    height: 300px;
+}
+
+.contacto-borde {
+    border-radius: 10px 0 0 10px;
+}
+
+#mapa iframe {
+    width: 100%;
+    height: 100%;
+}
+
+#mapa {
+    width: 50%;
+}
+
+
+/*Sombras*/
+
+.shadow {
+    -moz-box-shadow: 3px 4px 5px 6px #ccc;
+    -webkit-box-shadow: 3px 4px 5px 6px #ccc;
+    box-shadow: 3px 4px 5px 6px #ccc;
+}
+
+#contacto {
+    background-color: #5a90d7;
+    width: 50%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contacto li {
+    list-style: none;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+/* Header destinos */
 
 
 /* Main heading for card's front cover */
