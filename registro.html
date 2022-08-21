@@ -23,14 +23,14 @@
 						Registrar
 					</span>
                     <div class="contenedor_btnRegistro validar_registro" data-validate="Nombre es requerido">
-                        <input class="input_registro" type="text" name="nombre" placeholder="Nombre">
+                        <input class="input_registro" id="nombre" type="text" name="nombre" placeholder="Nombre">
                         <span class="focus-inputRegistro"></span>
                         <span class="icono-input">
 							<i class="fa-solid fa-user" aria-hidden="true"></i>
 						</span>
                     </div>
                     <div class="contenedor_btnRegistro validar_registro" data-validate="Correo Electronico es requerido">
-                        <input class="input_registro" type="text" name="email" placeholder="Correo Electronico">
+                        <input class="input_registro" id="correo" type="text" name="email" placeholder="Correo Electronico">
                         <span class="focus-inputRegistro"></span>
                         <span class="icono-input">
 							<i class="fa fa-envelope" aria-hidden="true"></i>
@@ -38,7 +38,7 @@
                     </div>
 
                     <div class="contenedor_btnRegistro  validate-input" data-validate="Contraseña es requerida">
-                        <input class="input_registro" type="password" name="contraseña" placeholder="Contraseña">
+                        <input class="input_registro" id="contraseña" type="password" name="contraseña" placeholder="Contraseña">
                         <span class="focus-inputRegistro"></span>
                         <span class="icono-input">
 							<i class="fa fa-lock" aria-hidden="true"></i>
@@ -46,7 +46,7 @@
                     </div>
 
                     <div class="contenedor_btnregistrarform">
-                        <button class="registrar-form-btn">
+                        <button type="submit" id="enviarregistro" class="registrar-form-btn">
 							Registrar
 						</button>
                     </div>
