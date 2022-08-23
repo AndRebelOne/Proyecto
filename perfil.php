@@ -33,24 +33,10 @@
 </div>
 <h2>Informacion Boleto Comprado</h2>
 <div class="contenedorTabla">
-<div class="contenedorDato">
-    <div class="info-dato">ID de la compra:</div>
-    <div class="mostrarDato">12</div>
-</div>
-<div class="contenedorDato">
-    <div class="info-dato">Lugar Destino:</div>
-    <div class="mostrarDato">San Jose?> </div>
-</div>
-<div class="contenedorboton">
-<button type="submit" id="actualizarbtn" name="actualizar" >
-                            Actualizar
-                        </button>
-                        <button type="submit" id="borrarbtn" name="borrar" >
-                            Borrar
-                        </button>
-    
-</div><?php
+<?php
 include("boletos_usuario.php");
     ?> 
+    
+</div>
 </body>
 </html>
