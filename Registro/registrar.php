@@ -14,7 +14,8 @@ if (isset($_POST['registrar'])){
         $resultado = mysqli_query($conexion, $consulta);
         if ($resultado) {
             ?>
-            <h3>Te has registrado correctamente</h3>
+            
+             <h3>Te has registrado correctamente</h3>
             <?php
         } else {
             ?>

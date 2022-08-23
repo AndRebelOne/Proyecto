@@ -71,7 +71,7 @@
                     
                     <div class='alert alert-danger alerta' id="alertaCorreo" role='alert' style="display: none">Ingrese un correo</div>
 
-                    <div class='alert alert-danger alerta' id="alertaContrasena" role='alert' style="display: none">Ingrese una contraseña</div>
+                    <div class='alert alert-danger alerta' id="alertaContrasena" role='alert' style="display:none">Ingrese una contraseña</div>
 
                     <div class='alert alert-success alerta' id="alertaRegistro" role='alert' style="display: none">Registro completo!</div>
                     
@@ -89,9 +89,7 @@
         </div>
     </div>
     <script src="formulario.js"></script>
-    <?php
-    include("registrar.php");
-    ?>
+
     
     <script src="https://kit.fontawesome.com/77233f7af8.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -101,6 +99,11 @@
     <script src="https://kit.fontawesome.com/263ed9621b.js" crossorigin="anonymous"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+    <?php
+
+    include("registrar.php");
+    
+    ?>
 </body>
 
 </html>

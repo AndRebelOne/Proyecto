@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#contenedorPerfil {
+    width: 100%;
+    height: 290px;
+    position: relative;
+}
+
+#portada {
+    width: 100%;
+    height: 130px;
+    background-image: url("../Recursos/IMG/cielo1.jpg");
+    background-size: 100%;
+    background-color: blue;
+    background-repeat: no-repeat;
+}
+
+#perfil {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-color: aqua;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 30px;
+    background-image: url("../Recursos/IMG/perfil.png");
+    background-size: 200px;
+}
+
+#nombre_usuario {
+    position: relative;
+    text-align: center;
+    top: 100px;
+}
+
+.contenedorTabla {
+    width: 800px;
+    margin: 20px;
+    padding: 0;
+}
+
+.contenedorDato {
+    width: 800px;
+    min-height: 30px;
+    height: auto;
+    border-bottom: 1px solid black;
+}
+
+.mostrarDato {
+    width: 600px;
+    height: auto;
+    float: right;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.info-dato {
+    width: 200px;
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.contenedorboton {
+    float: right;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+#actualizarbtn {
+    font-size: 15px;
+    line-height: 1.5;
+    color: white;
+    text-transform: uppercase;
+    width: auto;
+    height: 50px;
+    background: rgb(7, 185, 7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 25px;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+
+#borrarbtn {
+    font-size: 15px;
+    line-height: 1.5;
+    color: white;
+    text-transform: uppercase;
+    width: auto;
+    height: 50px;
+    background: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 25px;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+#borrarbtn:hover {
+    background: #9c3030;
+    cursor: pointer;
+}
+
+#actualizarbtn:hover {
+    background: rgb(25, 102, 43);
+    cursor: pointer;
+}
