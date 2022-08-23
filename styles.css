@@ -946,7 +946,11 @@ input[id="3"]:checked~.pagina .elementoPagina[for="3"] {
 }
 
 .texto {
+
+    position: relative;
+
     position: absolute;
+
     top: 10px;
     left: 10px;
     top: 50%;
@@ -958,6 +962,10 @@ input[id="3"]:checked~.pagina .elementoPagina[for="3"] {
 }
 
 .texto a {
+
+    text-decoration: underline;
+
     text-decoration: none;
+
     color: rgb(0, 0, 0);
 }

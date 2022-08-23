@@ -25,6 +25,7 @@
             <nav id="menu">
                 <ul>
                     <li><a href="#">Inicio</a></li>
+                    <li><a href="./Iniciar sesion/index.php">Iniciar Sesion</a></li>
                     <li><a href="#acercade">Acerca de</a></li>
                     <li><a href="#contactos">Contacto</a></li>
                     <li><a href="#destinos">Destinos</a></li>
@@ -44,16 +45,7 @@
         <div class="slider">
 
             <div class="elementoSlide">
-                <div class="texto">
-                    <p>Bienvenidos a nuestra agencia de vuelos skyfly</p>
-
-                    <a href="#">Inicia Sesion</a> o
-                    <a href="registro.html">Registrar</a>
-                    <p>Para comenzar a visitar nuestros destinos</p>
-                </div>
-
                 <img src="Recursos\IMG\vuelo.jpg" />
-
             </div>
             <div class="elementoSlide">
                 <img src="Recursos/IMG/avion.jpg" />
@@ -85,14 +77,6 @@
         <img id="Imagen-acercade" src="Recursos\IMG\aircraft-g07a60cbb0_1920.jpg" alt="">
         <p id="contenido-acercade">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam facilis numquam repudiandae dicta a tempora error, accusamus accusantium esse suscipit sit illo explicabo voluptatem sapiente adipisci maiores sint tenetur inventore!</p>
     </section>
-
-
-    <h2 class="tituloNavegacion" id="acercade">Acerca De</h2>
-    <section class="contenedor-contenido shadow borde">
-        <img id="Imagen-acercade" src="Recursos\IMG\aircraft-g07a60cbb0_1920.jpg" alt="">
-        <p id="contenido-acercade">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam facilis numquam repudiandae dicta a tempora error, accusamus accusantium esse suscipit sit illo explicabo voluptatem sapiente adipisci maiores sint tenetur inventore!</p>
-    </section>
-
 
     <h2 class="tituloNavegacion" id="contactos">Contacto</h2>
     <section class="contenedor-contenido shadow borde">
@@ -318,30 +302,9 @@
                 <a href="" class="text-white mr-4">
                     <i class="fab fa-github"></i>
                 </a>
-
-                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-                    <!-- Links -->
-                    <h6 class="text-uppercase fw-bold">Links</h6>
-                    <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #5a90d7; height: 2px" />
-                    <p>
-                        <a href="#" class="text-white">Inicio</a>
-                    </p>
-                    <p>
-                        <a href="#acercade" class="text-white">Acerca de</a>
-                    </p>
-                    <p>
-                        <a href="#contactos" class="text-white">Contacto</a>
-                    </p>
-                    <p>
-                        <a href="#destinos" class="text-white">Destinos</a>
-                    </p>
-                    <p>
-                        <a href="#!" class="text-white">Mi cuenta</a>
-                    </p>
-
-                </div>
-                <!-- Right -->
+            </div>
         </section>
+
         <!-- Section: Social media -->
 
         <!-- Section: Links  -->

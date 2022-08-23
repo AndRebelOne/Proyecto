@@ -36,6 +36,69 @@ li {
 
 /*---------------------------------------------*/
 
+
+header {
+    width: 100%;
+    height: 70px;
+    background-color: #0e1c2e;
+    color: white;
+}
+
+#contenedorHeader {
+    width: 95%;
+    margin: 0px auto;
+}
+
+
+/*Logo(Nombre de empresa)z*/
+
+#logo {
+    float: left;
+    width: 230px;
+    margin-top: 8px;
+    letter-spacing: 1px;
+    text-align: center;
+    overflow: hidden;
+}
+
+#logo>h3 {
+    display: block;
+    float: right;
+    margin-right: 65px;
+    margin-top: 5px;
+    font-size: 40px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+
+/*Menu de navegacion header*/
+
+#menu {
+    float: right;
+    height: 70px;
+}
+
+#menu ul li {
+    font-size: 12px;
+    display: inline-block;
+    text-transform: uppercase;
+    margin: 0px 10px 0px 10px;
+    letter-spacing: 1px;
+    line-height: 70px;
+}
+
+#menu ul li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    transition: all 200ms;
+}
+
+#menu ul li a:hover {
+    transform: scale(1.2, 1.2);
+}
+
 input {
     outline: none;
     border: none;
@@ -71,18 +134,18 @@ input:focus {
     text-align: center;
     width: 100%;
     display: block;
-    padding-bottom: 54px;
+    margin-bottom: 20px;
 }
 
 .contenedor_registro {
     width: 100%;
-    min-height: 100vh;
+    min-height: 93vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     padding: 15px;
-    background-color: #E25B5B;
+    background-color: #8b4e4e;
 }
 
 .registro {
@@ -94,6 +157,11 @@ input:focus {
     flex-wrap: wrap;
     justify-content: space-between;
     padding-left: 25px;
+}
+
+.alerta {
+    display: none;
+    height: 5px;
 }
 
 .imagen_registro {
@@ -203,6 +271,8 @@ input:focus {
     -o-transition: all 0.4s;
     -moz-transition: all 0.4s;
     transition: all 0.4s;
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
 
 .registrar-form-btn:hover {
